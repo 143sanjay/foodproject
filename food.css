@@ -1,0 +1,66 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+nav
+{
+  
+    background-color:green;
+   
+  text-align: center;
+
+}
+nav ul{
+   list-style-type:none;
+
+}
+nav ul a{
+    display:inline-block;
+    padding: 20px;
+    text-decoration: none;
+    color:#000;
+    transition:0.2s else-in;
+
+}
+nav ul a:hover
+{
+    background-color:yellow;
+    color:white;
+}
+section{
+    height: 100%;
+    width: 100%;
+    background-image:url(pizza.jpg);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+  text-align: center;
+  background-size: 100%;
+}
+h1
+{
+    
+     
+    display: inline-block;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    width: 100px;
+    padding-top:10%;
+    color:lime;
+    height: 30px;
+    font-size: 100px;
+}
+h4
+{
+
+    
+    font-style: italic;
+    font-size: large;
+    display:inline-block;
+    color: aqua;
+    padding: 15px;
+      font-size: 40px;
+}
+
